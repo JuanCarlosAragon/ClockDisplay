@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=nlimit
+comment0.target=NumberDisplay(int)
+comment1.params=newValue
+comment1.target=void\ setValue(int)
+comment2.params=
+comment2.target=int\ getValue()
+comment3.params=
+comment3.target=int\ getLimit()
+comment4.params=
+comment4.target=void\ increment()
+numComments=5
