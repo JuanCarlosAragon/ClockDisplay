@@ -67,7 +67,7 @@ public class ClockDisplay12h
     */
    public void setTime(int hour, int minute)
    {
-       hours.setValue(hour);
+       hours.setValue(numericControl(hour));
        minutes.setValue(minute);
        updateDisplay();
     }
@@ -94,5 +94,11 @@ public class ClockDisplay12h
        displayString = hours.getDisplayValue() + ":" +
        minutes.getDisplayValue() + estateDisplay;
     }
-    
+    private int numericControl(int n1){
+        if (n1>12){
+            n1 = n1 - 12;
+            estate = false;
+        }
+        return n1;
+    }
 } 

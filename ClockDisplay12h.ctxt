@@ -17,4 +17,6 @@ comment4.text=\r\n\ Return\ the\ current\ time\ of\ this\ display\ in\ the\ form
 comment5.params=
 comment5.target=void\ updateDisplay()
 comment5.text=\r\n\ Update\ the\ internal\ string\ that\ represents\ the\ display.\r\n
-numComments=6
+comment6.params=n1
+comment6.target=int\ numericControl(int)
+numComments=7
